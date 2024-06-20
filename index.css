@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.banner {
+    background-image: url("images/shadi.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;  
+}
+.owl-next,
+.owl-prev{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.owl-next{
+    right: -30px;
+}
+.owl-prev{
+    left: -30px;
+}
+
+.owl-next span,
+.owl-prev span{
+    padding: 10px;
+    background-color: skyblue;
+    border-radius: 4px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
